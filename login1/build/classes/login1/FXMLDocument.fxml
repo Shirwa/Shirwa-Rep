@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login1.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="380.0" fitWidth="469.0" layoutX="8.0" layoutY="14.0" opacity="0.41" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/house-cleaning-service-logo-design-2016756.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="487.0" layoutY="29.0" prefHeight="343.0" prefWidth="273.0" style="-fx-background-color: #f40707;">
+         <children>
+            <TextField layoutX="43.0" layoutY="106.0" promptText="Name" style="-fx-background-color: f40707; -fx-border-color: #cde01d;" />
+            <TextField layoutX="43.0" layoutY="171.0" promptText="Password" style="-fx-background-color: #f40707; -fx-border-color: #cde01d;" />
+            <Button fx:id="login" layoutX="43.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="187.0" style="-fx-background-color: #d60000;" text="Login" textFill="#d3bfbf">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <effect>
+                  <Reflection bottomOpacity="0.31" fraction="1.0" topOpacity="0.73" />
+               </effect>
+            </Button>
+            <Label layoutX="104.0" layoutY="30.0" text="Sign in" textFill="#e1bdbd">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="67.0" layoutY="298.0" opacity="0.49" text="Arena Cleaning" textFill="#f2ebeb">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
